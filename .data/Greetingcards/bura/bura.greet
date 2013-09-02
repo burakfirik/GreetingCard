@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<greet>
+     <tab>0<image_file x="0" y="0">0.png</image_file>
+          <image_file x="0" y="0">1.png</image_file>
+     </tab>
+</greet>

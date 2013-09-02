@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_01" class="java.beans.XMLDecoder">
+ <object class="javax.swing.JFrame">
+  <void property="bounds">
+   <object class="java.awt.Rectangle" id="Rectangle0">
+    <void class="java.awt.Rectangle" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Rectangle0">
+       <void class="java.awt.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle0">
+          <void class="java.awt.Rectangle" method="getField">
+           <string>width</string>
+           <void method="set">
+            <object idref="Rectangle0">
+             <void class="java.awt.Rectangle" method="getField">
+              <string>height</string>
+              <void method="set">
+               <object idref="Rectangle0"/>
+               <int>200</int>
+              </void>
+             </void>
+            </object>
+            <int>400</int>
+           </void>
+          </void>
+         </object>
+         <int>164</int>
+        </void>
+       </void>
+      </object>
+      <int>1</int>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="contentPane">
+   <void property="size">
+    <object class="java.awt.Dimension" id="Dimension0">
+     <void class="java.awt.Dimension" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Dimension0">
+        <void class="java.awt.Dimension" method="getField">
+         <string>height</string>
+         <void method="set">
+          <object idref="Dimension0"/>
+          <int>162</int>
+         </void>
+        </void>
+       </object>
+       <int>384</int>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="javax.swing.JLabel">
+     <void property="text">
+      <string>Name:</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="javax.swing.JTextField">
+     <void property="columns">
+      <int>8</int>
+     </void>
+     <void property="text">
+      <string>burak</string>
+     </void>
+    </object>
+   </void>
+   <void property="layout">
+    <object class="java.awt.FlowLayout"/>
+   </void>
+  </void>
+  <void id="Dimension1" property="minimumSize">
+   <void class="java.awt.Dimension" method="getField">
+    <string>width</string>
+    <void method="set">
+     <object idref="Dimension1">
+      <void class="java.awt.Dimension" method="getField">
+       <string>height</string>
+       <void method="set">
+        <object idref="Dimension1"/>
+        <int>68</int>
+       </void>
+      </void>
+     </object>
+     <int>71</int>
+    </void>
+   </void>
+  </void>
+  <void property="minimumSize">
+   <object idref="Dimension1"/>
+  </void>
+  <void property="name">
+   <string>frame2</string>
+  </void>
+  <void property="visible">
+   <object class="java.awt.font.TextAttribute" field="STRIKETHROUGH_ON"/>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<greet>
+     <tab>
+          <image_file x="0" y="0">0.png</image_file>
+     </tab>
+     <tab>
+          <image_file x="0" y="0">1.png</image_file>
+          <image_file x="26" y="49">2.png</image_file>
+          <image_file x="138" y="26">3.png</image_file>
+     </tab>
+     <tab>
+          <image_file x="0" y="0">4.png</image_file>
+          <image_file x="-8" y="18">5.png</image_file>
+          <image_file x="287" y="43">6.png</image_file>
+          <image_file x="77" y="82">7.png</image_file>
+     </tab>
+     <tab>
+          <image_file x="0" y="0">8.png</image_file>
+          <image_file x="201" y="88">9.png</image_file>
+          <image_file x="28" y="-14">10.png</image_file>
+     </tab>
+</greet>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_01" class="java.beans.XMLDecoder">
+ <object class="javax.swing.JTabbedPane">
+  <void method="add">
+   <object class="greet.gui.TemplateCanvas" id="TemplateCanvas0">
+    <void property="background">
+     <object class="java.awt.Color">
+      <int>192</int>
+      <int>192</int>
+      <int>192</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="javax.swing.JLabel">
+      <void property="text">
+       <string>Test Pane</string>
+      </void>
+      <void method="addMouseListener">
+       <object class="greet.eventmouse.MoveTextHandler"/>
+      </void>
+      <void method="addMouseListener">
+       <object class="greet.eventmouse.CanvasMouseHandler" id="CanvasMouseHandler0"/>
+      </void>
+     </object>
+    </void>
+    <void method="addMouseListener">
+     <object idref="CanvasMouseHandler0"/>
+    </void>
+    <void method="addMouseMotionListener">
+     <object idref="CanvasMouseHandler0"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="greet.gui.TemplateCanvas" id="TemplateCanvas1">
+    <void method="addMouseListener">
+     <object class="greet.eventmouse.CanvasMouseHandler" id="CanvasMouseHandler1"/>
+    </void>
+    <void method="addMouseMotionListener">
+     <object idref="CanvasMouseHandler1"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="greet.gui.TemplateCanvas" id="TemplateCanvas2">
+    <void method="addMouseListener">
+     <object class="greet.eventmouse.CanvasMouseHandler" id="CanvasMouseHandler2"/>
+    </void>
+    <void method="addMouseMotionListener">
+     <object idref="CanvasMouseHandler2"/>
+    </void>
+   </object>
+  </void>
+  <void method="addTab">
+   <string></string>
+   <object class="javax.swing.ImageIcon">
+    <string>data/buttons/Front.png</string>
+   </object>
+   <object idref="TemplateCanvas0"/>
+  </void>
+  <void method="addTab">
+   <string>1.page</string>
+   <null/>
+   <object idref="TemplateCanvas1"/>
+  </void>
+  <void method="addTab">
+   <string>2.page</string>
+   <null/>
+   <object idref="TemplateCanvas2"/>
+  </void>
+ </object>
+</java>
